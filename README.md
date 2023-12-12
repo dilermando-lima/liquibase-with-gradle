@@ -45,7 +45,7 @@ All commands bellow can be confirmed with `select * from  SYS.DATABASECHANGELOG`
 | `gradle liquibaseExec validate` | validate pending scripts | 
 | `gradle liquibaseExec update` | execute scripts into database | 
 | `gradle liquibaseExec updateTestingRollback` |  execute scripts into database and then test rollback commands | 
-| `gradle liquibaseExec update -PliquibasePassword=PASS1` |  overriding properties on running (some props are declared in  in [](./gradle.properties) ) |
+| `gradle liquibaseExec update -PliquibasePassword=PASS1` |  overriding properties on running, some props are declared in [gradle.properties](./gradle.properties) |
 | `gradle liquibaseExec rollbackCount -PliquibaseCommandValue=10` | rollback last ammounts of changeset command  | 
 | `gradle liquibaseExec tag -PliquibaseCommandValue="1.1.0"` | tag last executed changeset  | 
 | `gradle liquibaseExec rollback -PliquibaseCommandValue="1.1.0"` | rollback into the last tagged changeset | 
