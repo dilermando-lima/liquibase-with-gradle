@@ -1,0 +1,16 @@
+databaseChangeLog:
+    - include:
+        file: 0001-DML.sql
+        relativeToChangelogFile: true
+    - include:
+        file: 0002-SCR.sql
+        relativeToChangelogFile: true
+    - include:
+        file: 0003-SCR.sql
+        relativeToChangelogFile: true
+    - include:
+        file: 0004-SCR.sql
+        relativeToChangelogFile: true
+
+
+
